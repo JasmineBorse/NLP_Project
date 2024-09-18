@@ -34,6 +34,10 @@ The results were visualized through various charts and plots, including:
 - **Sentiment Correlation Heatmap**: Shows how different sentiments correlate with each other across topics.
 - **T-SNE Embeddings**: Provides a 2D visualization of word embeddings to highlight how sentiment-related terms cluster together.
 
+## Final Report
+[Project Report (PDF)](./path-to-your-file.pdf)
+
+
 ## Conclusion
 This project highlighted public attitudes towards climate-related energy solutions, offering critical insights for shaping future policies and strategies. By continuously monitoring sentiment, stakeholders can respond proactively to shifting public opinions and foster greater alignment in the global push toward sustainable energy.
 
