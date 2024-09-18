@@ -2,7 +2,7 @@
 
 # Sentiment Analysis in Climate-Centric Energy Solutions
 
-## Introduction
+## About the Project
 This project explores the application of sentiment analysis to gauge public opinion regarding new energy solutions designed to combat climate change. By analyzing public comments and discussions, the project provides insights into how people feel about climate-focused innovations, which can inform policy decisions, business strategies, and advocacy efforts.
 
 ## Project Motivation
