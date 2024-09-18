@@ -35,7 +35,7 @@ The results were visualized through various charts and plots, including:
 - **T-SNE Embeddings**: Provides a 2D visualization of word embeddings to highlight how sentiment-related terms cluster together.
 
 ## Final Report
-[Project Report (PDF)](./path-to-your-file.pdf)
+[Project Report (PDF)](https://github.com/JasmineBorse/NLP_Project/blob/main/NLP_Project_Analysis_Final.pdf)
 
 
 ## Conclusion
