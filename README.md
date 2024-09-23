@@ -2,42 +2,42 @@
 
 # Sentiment Analysis in Climate-Centric Energy Solutions
 
-## About the Project
-This project explores the application of sentiment analysis to gauge public opinion regarding new energy solutions designed to combat climate change. By analyzing public comments and discussions, the project provides insights into how people feel about climate-focused innovations, which can inform policy decisions, business strategies, and advocacy efforts.
+## Overview
+This project focuses on applying sentiment analysis to understand public opinion regarding innovative energy solutions aimed at addressing climate change. By analyzing public comments from online discussions, the project aims to provide valuable insights into how people perceive climate-focused initiatives, which can guide policy-making, business strategies, and advocacy campaigns.
 
-## Project Motivation
-The transition to sustainable energy solutions is a global priority, and understanding public sentiment is essential for driving this change effectively. Sentiment analysis helps identify public support, concerns, and resistance, allowing stakeholders to adapt their messaging and strategies for better engagement and smoother adoption of new technologies.
+## Motivation
+The global shift toward sustainable energy solutions is imperative, and gauging public sentiment is crucial for ensuring successful transitions. Sentiment analysis helps identify the level of public support, concerns, or resistance, allowing key stakeholders to adjust their communication and strategy to foster broader acceptance and smoother adoption of these technologies.
 
-## Methodology
+## Approach
 
 ### Data Collection
-We used the YouTube API to extract comments from popular news outlets like BBC, Fox, and CNN, gathering feedback on climate-related energy innovations. This data was the foundation for our sentiment analysis.
+We employed the YouTube API to extract public comments from leading news channels, including BBC, Fox, and CNN, focusing on discussions around climate and energy innovations. These comments form the core dataset for sentiment analysis.
 
-### Data Preprocessing
-Before analyzing sentiment, the raw text data underwent several preprocessing steps:
-- **Language Filtering**: Focusing on English comments only.
-- **Text Standardization**: Converting text to lowercase, applying lemmatization, and removing irrelevant content such as URLs and HTML tags.
-- **Emoji & Spelling Correction**: Emojis were converted to text, and spelling corrections were made to ensure clarity.
+### Data Preparation
+The collected text data was processed through several steps to ensure it was clean and suitable for analysis:
+- **Language Filtering**: Restricting the dataset to English comments.
+- **Text Cleaning**: Standardizing the text by converting to lowercase, lemmatization, and removing unnecessary elements such as URLs, HTML tags, and special characters.
+- **Emoji & Spelling Handling**: Converting emojis to text equivalents and correcting common spelling errors for better analysis.
 
-### Sentiment Analysis
-Three tools were used to perform sentiment analysis:
-- **VADER**: Captures sentiment intensity and nuances.
-- **TextBlob**: Provides a polarity score for quick analysis.
-- **Pattern**: Offers deeper insights by analyzing the text's syntactic structure.
+### Sentiment Analysis Methods
+We employed three popular sentiment analysis tools to ensure comprehensive insights:
+- **VADER**: Captures sentiment intensity with fine granularity.
+- **TextBlob**: Provides a basic polarity score for general sentiment classification.
+- **Pattern**: Delivers in-depth syntactic analysis to enhance sentiment understanding.
 
-By using multiple methods, we achieved a well-rounded view of public sentiment, allowing us to compare results and enhance the reliability of our findings.
+Using multiple approaches allowed us to cross-validate results and strengthen the accuracy of the sentiment classifications.
 
-## Visualizations
-The results were visualized through various charts and plots, including:
-- **Sentiment Distribution**: Illustrates the proportion of positive, negative, and neutral sentiments.
-- **Word Cloud**: Displays frequently occurring terms in relation to sentiments.
-- **Sentiment Correlation Heatmap**: Shows how different sentiments correlate with each other across topics.
-- **T-SNE Embeddings**: Provides a 2D visualization of word embeddings to highlight how sentiment-related terms cluster together.
+## Data Visualization
+The insights from sentiment analysis were visualized using several types of graphs:
+- **Sentiment Breakdown**: Displays the ratio of positive, negative, and neutral sentiments.
+- **Word Cloud**: Highlights common terms associated with specific sentiments.
+- **Correlation Heatmap**: Shows how different sentiments relate to each other across various discussions.
+- **T-SNE Plot**: A 2D representation of word embeddings, revealing clusters of sentiment-related words.
 
-## Final Report
+## Detailed Report
+For a complete overview of our findings, check out the final report:  
 [Project Report (PDF)](https://github.com/JasmineBorse/NLP_Project/blob/main/NLP_Project_Analysis_Final.pdf)
 
-
 ## Conclusion
-This project highlighted public attitudes towards climate-related energy solutions, offering critical insights for shaping future policies and strategies. By continuously monitoring sentiment, stakeholders can respond proactively to shifting public opinions and foster greater alignment in the global push toward sustainable energy.
+The project underscores the importance of understanding public sentiment regarding climate-related energy innovations. The insights derived can help inform more effective communication and strategy for both policymakers and industry players, aiding in the global move towards sustainable energy solutions.
 
